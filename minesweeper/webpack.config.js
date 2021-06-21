@@ -1,5 +1,5 @@
 module.exports = { 
-    entry: "./frontend/react_minesweeper.jsx",
+    entry: "./components/react_minesweeper.jsx",
     output: {
         filename: 'bundle.js'
     },
