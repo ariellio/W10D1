@@ -28,7 +28,7 @@ import Tile from "./tile"
         return board.grid.map ((row, i )=> {
             return (
             <div className="row" key={`row-${i}`}>
-                {this.renderTiles(row, i)} //since i am using this.rendertiles in need to changed
+                {this.renderTiles(row, i)} 
 
             </div>
             );
